@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './resources/index.css';
-import App from './pages/App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'shards-ui/dist/css/shards.min.css';
+import './resources/style.css';
+import App from './components/App';
+import { BrowserRouter, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <BrowserRouter>
+            <Route path="/" component={App} />
+        </BrowserRouter>
     </React.StrictMode>,
-    document.getElementById('root'),
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
