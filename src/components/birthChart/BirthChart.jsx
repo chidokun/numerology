@@ -1,14 +1,24 @@
 import React from 'react';
-import { Card, CardBody, CardTitle } from 'shards-react';
 
 function BirthChart() {
     return (
-        <Card style={{ width: '100%' }}>
-            <CardBody>
-                <CardTitle>Birth Chart</CardTitle>
-                <p>Ahihi</p>
-            </CardBody>
-        </Card>
+        <div className="birth-chart">
+            <div className="birth-chart-row">
+                <div className="birth-chart-number">7</div>
+                <div className="birth-chart-number">8</div>
+                <div className="birth-chart-number">9</div>
+            </div>
+            <div className="birth-chart-row">
+                <div className="birth-chart-number">4</div>
+                <div className="birth-chart-number">5</div>
+                <div className="birth-chart-number">6</div>
+            </div>
+            <div className="birth-chart-row">
+                <div className="birth-chart-number">1</div>
+                <div className="birth-chart-number">22222222</div>
+                <div className="birth-chart-number">9</div>
+            </div>
+        </div>
     );
 }
 

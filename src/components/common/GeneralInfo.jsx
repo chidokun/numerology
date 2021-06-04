@@ -1,15 +1,14 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { Row, Col, Card, CardBody, CardTitle } from 'shards-react';
 import NumberTitle from './NumberTitle';
 
-function GeneralInfo() {
+function GeneralInfo(props) {
     return (
         <Card style={{ width: '100%' }}>
             <CardBody>
-                <CardTitle className="text-center">
-                    Nguyễn Lê Hoàng Tuấn
-                </CardTitle>
-                <p className="text-center">08/11/1996</p>
+                <CardTitle className="text-center">{props.name}</CardTitle>
+                <p className="text-center">{props.birthday}</p>
                 <Row>
                     <Col>
                         <NumberTitle number={8} description="Con số chủ đạo" />

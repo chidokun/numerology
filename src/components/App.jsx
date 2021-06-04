@@ -3,9 +3,6 @@ import React from 'react';
 import { Container, Row } from 'shards-react';
 import BirthChartCard from './birthChart/BirthChartCard';
 import GeneralInfo from './common/GeneralInfo';
-import PersonalYearCard from './common/PersonalYearCard';
-import PyramidsCard from './common/PyramidsCard';
-import RulingNumberCard from './common/RulingNumberCard';
 import Footer from './Footer';
 import Header from './Header';
 import InputName from './common/InputName';
@@ -43,11 +40,11 @@ class App extends React.Component {
                     <Header />
                 </Row>
                 <Row noGutters={false}>
-                    <GeneralInfo />
-                    <RulingNumberCard />
+                    <GeneralInfo name={name} birthday={birthday} />
+                    {/* <RulingNumberCard /> */}
                     <BirthChartCard />
-                    <PyramidsCard />
-                    <PersonalYearCard />
+                    {/* <PyramidsCard /> */}
+                    {/* <PersonalYearCard /> */}
                 </Row>
                 <Row>
                     <Footer />

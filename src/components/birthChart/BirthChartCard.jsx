@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardBody, CardTitle, Col, Row } from 'shards-react';
+import { Card, CardBody, CardTitle, Row } from 'shards-react';
 import BirthChart from './BirthChart';
 
 function BirthChartCard() {
@@ -7,10 +7,8 @@ function BirthChartCard() {
         <Card style={{ width: '100%' }}>
             <CardBody>
                 <CardTitle>Birth Chart</CardTitle>
-                <Row>
-                    <Col className="justify-content-center">
-                        <BirthChart />
-                    </Col>
+                <Row className="justify-content-center">
+                    <BirthChart />
                 </Row>
             </CardBody>
         </Card>
