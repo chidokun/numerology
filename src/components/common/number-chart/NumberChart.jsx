@@ -26,19 +26,19 @@ function NumberChart(props) {
                 <img src={arrowDash} />
             </div>
             <div className="number-chart-row">
-                <div className="number-chart-number">{strMap[7]}</div>
-                <div className="number-chart-number">{strMap[8]}</div>
+                <div className="number-chart-number">{strMap[3]}</div>
+                <div className="number-chart-number">{strMap[6]}</div>
                 <div className="number-chart-number">{strMap[9]}</div>
             </div>
             <div className="number-chart-row">
-                <div className="number-chart-number">{strMap[4]}</div>
+                <div className="number-chart-number">{strMap[2]}</div>
                 <div className="number-chart-number">{strMap[5]}</div>
-                <div className="number-chart-number">{strMap[6]}</div>
+                <div className="number-chart-number">{strMap[8]}</div>
             </div>
             <div className="number-chart-row">
                 <div className="number-chart-number">{strMap[1]}</div>
-                <div className="number-chart-number">{strMap[2]}</div>
-                <div className="number-chart-number">{strMap[3]}</div>
+                <div className="number-chart-number">{strMap[4]}</div>
+                <div className="number-chart-number">{strMap[7]}</div>
             </div>
         </div>
     );
