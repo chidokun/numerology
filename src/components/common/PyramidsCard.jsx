@@ -1,12 +1,15 @@
 import React from 'react';
 import { Card, CardBody, CardTitle } from 'shards-react';
+import Pyramids from '../pyramids/Pyramids';
 
-function PyramidsCard() {
+function PyramidsCard(props) {
     return (
         <Card style={{ width: '100%' }}>
             <CardBody>
                 <CardTitle>Pyramids</CardTitle>
-                <p>Ahihi</p>
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <Pyramids {...props} />
+                </div>
             </CardBody>
         </Card>
     );

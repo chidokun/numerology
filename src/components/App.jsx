@@ -7,18 +7,24 @@ import Footer from './Footer';
 import Header from './Header';
 import InputName from './common/InputName';
 import { withRouter } from 'react-router';
+import { getNumerology } from '../helpers/numerology';
+import PyramidsCard from './common/PyramidsCard';
 
 class App extends React.Component {
     getSearch = () => {
         const search = new URLSearchParams(this.props.location.search);
         let name = search.get('name');
         let birthday = search.get('birthday');
-        return { name, birthday };
+        let numerology = undefined;
+        if (name && birthday) {
+            numerology = getNumerology(name, birthday);
+        }
+        return { name, birthday, numerology };
     };
 
     render() {
-        const { name, birthday } = this.getSearch();
-
+        const { name, birthday, numerology } = this.getSearch();
+        console.log(numerology);
         if (!name || !birthday) {
             return (
                 <Container>
@@ -40,10 +46,13 @@ class App extends React.Component {
                     <Header />
                 </Row>
                 <Row noGutters={false}>
-                    <GeneralInfo name={name} birthday={birthday} />
+                    <GeneralInfo numerology={numerology} />
                     {/* <RulingNumberCard /> */}
-                    <BirthChartCard />
-                    {/* <PyramidsCard /> */}
+                    <BirthChartCard numerology={numerology} />
+                    <PyramidsCard
+                        birthday={numerology.birthday}
+                        pyramids={numerology.pyramids}
+                    />
                     {/* <PersonalYearCard /> */}
                 </Row>
                 <Row>

@@ -1,0 +1,72 @@
+.number-chart {
+    width: 328px;
+    overflow: visible;
+}
+
+.number-chart-row {
+    display: flex;
+}
+
+.number-chart-number {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #d4d4d4;
+    margin: 2px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 0 rgb(90 97 105 / 11%), 0 4px 8px rgb(90 97 105 / 12%),
+        0 10px 10px rgb(90 97 105 / 6%), 0 7px 70px rgb(90 97 105 / 10%);
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.number-chart-arrow {
+    display: relative;
+    overflow: visible;
+}
+
+.number-chart-arrow .determination {
+}
+
+.number-chart-arrow .procrastination {
+}
+
+.number-chart-arrow .spirituality {
+}
+
+.number-chart-arrow .enquirer {
+}
+
+.number-chart-arrow .intellect {
+}
+
+.number-chart-arrow .poor-memory {
+}
+
+.number-chart-arrow .emotional-balance {
+}
+
+.number-chart-arrow .hypersensitivity {
+}
+
+.number-chart-arrow .practicality {
+}
+
+.number-chart-arrow .disorder {
+}
+.number-chart-arrow .planner {
+}
+
+.number-chart-arrow .will {
+}
+
+.number-chart-arrow .frustration {
+}
+
+.number-chart-arrow .activity {
+}
+
+.number-chart-arrow .passivity {
+}

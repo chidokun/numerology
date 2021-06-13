@@ -80,7 +80,7 @@ class InputName extends React.Component {
                                 to={`?name=${name}&birthday=${moment(
                                     birthday
                                 ).format('DD-MM-YYYY')}`}>
-                                <Button>View</Button>
+                                <Button style={{ width: '100%' }}>View</Button>
                             </Link>
                         </FormGroup>
                     </Form>
