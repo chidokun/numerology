@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/numerology/static/css/main.4239dee2.chunk.css",
-    "main.js": "/numerology/static/js/main.f146d919.chunk.js",
-    "main.js.map": "/numerology/static/js/main.f146d919.chunk.js.map",
-    "runtime-main.js": "/numerology/static/js/runtime-main.138dca07.js",
-    "runtime-main.js.map": "/numerology/static/js/runtime-main.138dca07.js.map",
-    "static/js/2.32da6cf1.chunk.js": "/numerology/static/js/2.32da6cf1.chunk.js",
-    "static/js/2.32da6cf1.chunk.js.map": "/numerology/static/js/2.32da6cf1.chunk.js.map",
-    "static/js/3.1348e168.chunk.js": "/numerology/static/js/3.1348e168.chunk.js",
-    "static/js/3.1348e168.chunk.js.map": "/numerology/static/js/3.1348e168.chunk.js.map",
+    "main.css": "/numerology/static/css/main.8e0cac45.chunk.css",
+    "main.js": "/numerology/static/js/main.80f67bce.chunk.js",
+    "main.js.map": "/numerology/static/js/main.80f67bce.chunk.js.map",
+    "runtime-main.js": "/numerology/static/js/runtime-main.9ddde102.js",
+    "runtime-main.js.map": "/numerology/static/js/runtime-main.9ddde102.js.map",
+    "static/css/2.442c343f.chunk.css": "/numerology/static/css/2.442c343f.chunk.css",
+    "static/js/2.1131e2d2.chunk.js": "/numerology/static/js/2.1131e2d2.chunk.js",
+    "static/js/2.1131e2d2.chunk.js.map": "/numerology/static/js/2.1131e2d2.chunk.js.map",
+    "static/js/3.79bf57bb.chunk.js": "/numerology/static/js/3.79bf57bb.chunk.js",
+    "static/js/3.79bf57bb.chunk.js.map": "/numerology/static/js/3.79bf57bb.chunk.js.map",
     "index.html": "/numerology/index.html",
-    "static/css/main.4239dee2.chunk.css.map": "/numerology/static/css/main.4239dee2.chunk.css.map",
-    "static/js/2.32da6cf1.chunk.js.LICENSE.txt": "/numerology/static/js/2.32da6cf1.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/numerology/static/media/logo.6ce24c58.svg"
+    "static/css/2.442c343f.chunk.css.map": "/numerology/static/css/2.442c343f.chunk.css.map",
+    "static/css/main.8e0cac45.chunk.css.map": "/numerology/static/css/main.8e0cac45.chunk.css.map",
+    "static/js/2.1131e2d2.chunk.js.LICENSE.txt": "/numerology/static/js/2.1131e2d2.chunk.js.LICENSE.txt",
+    "static/media/arrow-dash.45b2e72c.svg": "/numerology/static/media/arrow-dash.45b2e72c.svg",
+    "static/media/arrow.49c3f957.svg": "/numerology/static/media/arrow.49c3f957.svg",
+    "static/media/banner.6da4c614.png": "/numerology/static/media/banner.6da4c614.png",
+    "static/media/pyramid-modern.e394bd94.svg": "/numerology/static/media/pyramid-modern.e394bd94.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.138dca07.js",
-    "static/js/2.32da6cf1.chunk.js",
-    "static/css/main.4239dee2.chunk.css",
-    "static/js/main.f146d919.chunk.js"
+    "static/js/runtime-main.9ddde102.js",
+    "static/css/2.442c343f.chunk.css",
+    "static/js/2.1131e2d2.chunk.js",
+    "static/css/main.8e0cac45.chunk.css",
+    "static/js/main.80f67bce.chunk.js"
   ]
 }
